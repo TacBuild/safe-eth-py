@@ -83,6 +83,10 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0xb6029EA3B2c51D09a50B53CA8012FeEB05bDa35A", 319108, "1.0.0"),
         ("0x8942595A2dC5181Df0465AF0D7be08c8f23C93af", 34096, "0.1.0"),
     ],
+    EthereumNetwork.TAC_TURIN: [
+        ("0x29fcB43b46531BcA003ddC8FCB67FFE91900C762", 2231707, "1.4.1+L2"),
+        ("0x41675C099F32341bf84BFc5382aF534df5C7461a", 2231705, "1.4.1"),
+    ],
     EthereumNetwork.GNOSIS: [
         ("0x29fcB43b46531BcA003ddC8FCB67FFE91900C762", 28204126, "1.4.1+L2"),
         ("0x41675C099F32341bf84BFc5382aF534df5C7461a", 28204128, "1.4.1"),
@@ -2151,6 +2155,9 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
         ("0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B", 1798666),
         ("0x50e55Af101C777bA7A1d560a774A82eF002ced9F", 1631491),
         ("0x12302fE9c02ff50939BaAaaf415fc226C078613C", 312509),
+    ],
+    EthereumNetwork.TAC_TURIN: [
+        ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 2231663),  # v1.4.1
     ],
     EthereumNetwork.GNOSIS: [
         ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 27419153),  # v1.4.1
